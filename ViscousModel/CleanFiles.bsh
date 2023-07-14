@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ "$#" -ne 1 ]; then
+  echo "CleanFiles.bsh takes one argument, the root of path you wish to match"
+  echo "Providing \"Test_2\" will remove all directories matching \"Test_2*\""
+else
+ find . -maxdepth 1 -name $1'*' -type d -print -exec rm -rf "{}" \;
+fi

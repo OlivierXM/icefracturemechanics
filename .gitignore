@@ -1,0 +1,27 @@
+# Standard notation of output directory
+Outputs/
+Outputs*/
+SaveDir/
+Test*/
+
+# Generated Files
+SaveLog.txt
+latex.*
+*.msh
+*.vtu
+*.pvtu
+*.pvd
+
+# Doxygen Files
+html/
+latex/
+
+# Mesh Files
+Bar.h5
+Bar.msh
+Bar.xdmf
+facets.*
+
+# Test Files
+Test.py
+__pycache__/
