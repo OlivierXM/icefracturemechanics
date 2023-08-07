@@ -1,7 +1,7 @@
 # Ice Fracture Mechanics
 
 Source code for the paper [An isotropic viscoelastic phase field fracture model for flexural loading
-of freshwater columnar ice](TBD) found in **TBD**.
+of freshwater columnar ice](https://doi.org/10.1016/j.commatsci.2023.112401) found in **TBD**.
 
 ## Description
 A phase field fracture model for polycrystalline ice based on the constitutive model from [A viscoelastic integral formulation and numerical implementation of an isotropic constitutive model of saline ice](https://doi.org/10.1016/j.coldregions.2019.102983) by O'Connor et al. Model is implemented in the open source software [Dolfinx](https://fenicsproject.org/).
